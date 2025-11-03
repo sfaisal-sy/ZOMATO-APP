@@ -237,3 +237,31 @@ svg {
     padding-left: 8px;
     border-radius: 10px 80px ;
 }
+
+
+.search-input {
+  background-image: url('https://cdn-icons-png.flaticon.com/512/622/622669.png'); /* any search icon */
+  background-size: 18px;
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  padding-left: 35px; /* space for icon */
+  height: 35px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.location-input {
+  background-image: url('https://cdn-icons-png.flaticon.com/512/684/684908.png'); /* location icon */
+  background-size: 18px;
+  background-repeat: no-repeat;
+  background-position: 10px center; /* icon position */
+  padding-left: 35px; /* space so text doesn’t overlap the icon */
+  height: 35px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.location-input:focus {
+  border-color: #007bff; /* blue border on focus */
+}
